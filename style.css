@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown {
+  position: relative;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  position: absolute;
+  top: 110%;
+  right: 0;
+  background: #fff;
+  width: 150px;
+  border-radius: 5px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  display: none;
+}
+
+ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+ul li:hover {
+  background: #f0f0f0;
+}
